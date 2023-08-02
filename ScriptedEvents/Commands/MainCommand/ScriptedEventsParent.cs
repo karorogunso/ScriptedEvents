@@ -17,7 +17,7 @@
         public override string Command => "scriptedevents";
 
         /// <inheritdoc/>
-        public override string[] Aliases => new[] { "scr", "script", "event", "events" };
+        public override string[] Aliases => new[] { "scr", "script" };
 
         /// <inheritdoc/>
         public override string Description => "Parent command for the Scripted Events plugin.";
